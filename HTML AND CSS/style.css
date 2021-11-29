@@ -1,0 +1,73 @@
+*{
+    background: grey;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.header{
+    margin: 10px;
+}
+.header:hover{
+    transform: translateX(20px);
+    transition-duration: 2s;
+    transition-property: background;
+    background: crimson;
+    transition:all 1s linear;
+}
+ul,li,a{
+    color: crimson;
+}
+a:hover{
+    color: yellow;
+}
+.shop{
+    color: brown;
+}
+.banner:hover{
+    background: blue;
+    transform: translateX(20px);
+    transition: all 1s linear;
+
+}
+
+h1{
+    color:red;
+    background:black;
+    display: inline;
+}
+h2{
+    color: white;
+    background: black;
+    display:block;
+}
+h2:hover{
+    color: blue;
+}
+h1:hover{
+    color: blueviolet;
+    background: cadetblue;
+    transition: all 1s linear;
+}
+p{
+    color:black;
+    
+}
+p:hover{
+    background: yellow;
+}
+.one:hover{
+    background: blue;
+    transform: translateX(20px);
+    transition: all 1s linear;
+
+}
+.two:hover{
+    background: blue;
+    transform: translateX(20px);
+    transition: all 1s linear;
+
+}
+img:hover{
+    transform: translateX(-20px);
+}
